@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "release": "release-it"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -25,9 +26,10 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
+    "node-sass": "^4.12.0",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
-    "node-sass": "^4.12.0",
+    "release-it": "^14.10.0",
     "sass-loader": "^8.0.2"
   },
   "eslintConfig": {
@@ -60,5 +62,10 @@
   "bugs": {
     "url": "https://github.com/Caribbean-Digital-Group/gignet-components/issues"
   },
-  "homepage": "https://github.com/Caribbean-Digital-Group/gignet-components#readme"
+  "homepage": "https://github.com/Caribbean-Digital-Group/gignet-components#readme",
+  "release-it": {
+    "github": {
+      "release": true
+    }
+  }
 }
