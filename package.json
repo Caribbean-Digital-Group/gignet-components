@@ -34,6 +34,13 @@
     "release-it": "^14.10.0",
     "sass-loader": "^8.0.2"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "eslintConfig": {
     "root": true,
     "env": {
