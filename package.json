@@ -50,7 +50,7 @@
     "not dead"
   ],
   "description": "## Project setup ``` npm install ```",
-  "main": "main.js",
+  "main": "src/app.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Caribbean-Digital-Group/gignet-components.git"
