@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "release": "dotenv release-it --"
+    "release": "dotenv release-it --",
+    "build-component": "vue-cli-service build --target lib --name gignet-components ./src/app.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -53,7 +54,7 @@
     "not dead"
   ],
   "description": "## Project setup ``` npm install ```",
-  "main": "src/app.js",
+  "main": "dist/gignet-components.common.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Caribbean-Digital-Group/gignet-components.git"
