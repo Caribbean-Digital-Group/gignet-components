@@ -48,5 +48,17 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caribbean-Digital-Group/gignet-components.git"
+  },
+  "author": "Caribbean-Digital-Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caribbean-Digital-Group/gignet-components/issues"
+  },
+  "homepage": "https://github.com/Caribbean-Digital-Group/gignet-components#readme"
 }
