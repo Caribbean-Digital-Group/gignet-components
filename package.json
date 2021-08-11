@@ -19,7 +19,7 @@
     "vue": "^3.0.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/your_username"
+    "registry": "https://npm.pkg.github.com/caribbean-digital-group"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
