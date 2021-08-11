@@ -1,7 +1,6 @@
 {
-  "name": "gignet-components",
+  "name": "@caribbean-digital-group/gignet-components",
   "version": "0.1.6",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -18,6 +17,9 @@
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "vue": "^3.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/your_username"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
